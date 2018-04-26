@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: com.zhwk022.ftp.test.QuartzJdbcTest
+
