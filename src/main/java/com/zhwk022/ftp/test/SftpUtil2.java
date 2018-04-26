@@ -98,9 +98,9 @@ public class SftpUtil2 {
     public static void main(String[] arg) throws Exception {
         // 设置主机ip，端口，用户名，密码
         Map<String, String> sftpDetails = new HashMap<String, String>();
-        sftpDetails.put(SFTP_REQ_HOST, "11.11.123.131");
+        sftpDetails.put(SFTP_REQ_HOST, "192.168.0.1");
         sftpDetails.put(SFTP_REQ_USERNAME, "root");
-        sftpDetails.put(SFTP_REQ_PASSWORD, "bbqHCP%0");
+        sftpDetails.put(SFTP_REQ_PASSWORD, "xxxxxxx");
         sftpDetails.put(SFTP_REQ_PORT, "22");
 
         //测试文件上传
