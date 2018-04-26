@@ -438,37 +438,4 @@ public class LinuxShellUtil {
 		linuxShellUtil.disconnect();
 		return response;
 	}
-
-	public static void main(String[] args){
-//		LinuxShellUtil linuxShellUtil = new LinuxShellUtil("11.11.44.248", 22, "root", "redhat");//uhy@edA
-//		linuxShellUtil.executeCommands(new String[] { "/geoeast/showvolume.bash" });
-////		logger.info(linuxShellUtil.getResponse());
-//		System.out.println(linuxShellUtil.getResponse());
-//
-//		int flag = 0;
-//		while(true){
-//			if(flag > 2*30)
-//				break;
-//			try {
-//				Thread.sleep(2000);
-//			}catch(Exception e){
-//			}
-//			flag += 2;
-//			linuxShellUtil.executeCommands(new String[] { "ls /geoeast/zhmtest" });
-//			String response =  linuxShellUtil.getResponse();
-//			if(response.contains("No such file or directory")){
-//				break;
-//			}
-//
-//		}
-//		linuxShellUtil.disconnect();
-		String host = "11.11.123.132";
-		int port = 22;
-		String username = "root";
-		String  password  = "bbqHCP%0";
-		String remoteJarDir = "/opt/ftp2";
-		String file = "/opt/ftp2/ftp2.jar";
-		String sha256 = getSHA256CheckSum(host, port, username, password, remoteJarDir, file);
-		System.out.println(sha256);
-	}
 }
